@@ -9,8 +9,8 @@ let package = Package(
         .executable(name: "typokana", targets: ["typokana"])
     ],
     dependencies: [
-        .package(url: "https://github.com/apple/swift-syntax.git", .exact("0.50300.0")),
-        .package(url: "https://github.com/ezura/SwiftSyntaxExtensions.git", .exact("0.50300.0")),
+        .package(url: "https://github.com/apple/swift-syntax.git", .exact("0.50400.0")),
+        .package(url: "https://github.com/youfoodz/SwiftSyntaxExtensions.git", .branch("feature/swift5_4")),
         .package(url: "https://github.com/apple/swift-package-manager.git", .exact("0.5.0")),
     ],
     targets: [
